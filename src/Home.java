@@ -41,6 +41,7 @@ catch(SQLException ex)
         jMenuBar3 = new javax.swing.JMenuBar();
         jMenu5 = new javax.swing.JMenu();
         jMenu6 = new javax.swing.JMenu();
+        jMenu11 = new javax.swing.JMenu();
         jFrame1 = new javax.swing.JFrame();
         buttonGroup1 = new javax.swing.ButtonGroup();
         jDesktopPane1 = new javax.swing.JDesktopPane();
@@ -61,6 +62,10 @@ catch(SQLException ex)
         jMenu10 = new javax.swing.JMenu();
         jMenuItem11 = new javax.swing.JMenuItem();
         jMenuItem12 = new javax.swing.JMenuItem();
+       
+        jMenuBar1.add(jMenu11);
+        jButton = new javax.swing.JButton();
+        jButton.setText("Comment");
 
         jMenu1.setText("File");
         jMenuBar1.add(jMenu1);
